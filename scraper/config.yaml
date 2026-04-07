@@ -1,0 +1,38 @@
+# Scraper Configuration
+# Add or modify providers here
+
+providers:
+  - id: 1
+    name: "OpenAI GPT-4o mini"
+    provider: "OpenAI"
+    category: "cloud"
+    scraper: "openai"
+    url: "https://openai.com/pricing"
+    static_fields:
+      icon: "🧠"
+      apiDocs: "https://platform.openai.com/docs"
+      website: "https://openai.com"
+
+  - id: 2
+    name: "Google Gemini"
+    provider: "Google"
+    category: "cloud"
+    scraper: "google"
+    url: "https://ai.google.dev/"
+    static_fields:
+      icon: "💎"
+      apiDocs: "https://ai.google.dev/docs"
+      website: "https://ai.google.dev"
+
+  - id: 3
+    name: "Claude 3 Haiku"
+    provider: "Anthropic"
+    category: "cloud"
+    scraper: "anthropic"
+    url: "https://www.anthropic.com/pricing"
+    static_fields:
+      icon: "🤖"
+      apiDocs: "https://docs.anthropic.com"
+      website: "https://anthropic.com"
+
+  # Add more providers as needed

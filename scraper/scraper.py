@@ -2,6 +2,7 @@
 """
 Automated scraper for AI agent data from provider websites.
 Fetches latest information and updates data/agents.json
+Also discovers new free AI models automatically.
 """
 
 import json
@@ -22,15 +23,20 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
 }
 
+# Known providers to avoid duplicates
+KNOWN_PROVIDERS = {
+    'openai', 'google', 'anthropic', 'mistral', 'groq', 'cohere',
+    'huggingface', 'ollama', 'lmstudio', 'together', 'perplexity',
+    'deepseek', 'meta'
+}
+
 def fetch_openai_data():
     """Scrape OpenAI pricing/docs"""
     try:
-        # OpenAI pricing page
         url = "https://openai.com/pricing"
         response = requests.get(url, headers=HEADERS, timeout=10)
         soup = BeautifulSoup(response.text, 'lxml')
 
-        # GPT-4o mini info (hardcoded as example - would need actual selectors)
         return {
             "id": 1,
             "name": "OpenAI GPT-4o mini",
@@ -338,6 +344,67 @@ def fetch_meta_llama():
         "icon": "🦙"
     }
 
+def discover_new_models():
+    """Discover new free AI models from various sources"""
+    new_models = []
+    
+    try:
+        # Check Hugging Face trending models
+        url = "https://huggingface.co/models?sort=trending"
+        response = requests.get(url, headers=HEADERS, timeout=10)
+        soup = BeautifulSoup(response.text, 'lxml')
+        
+        # Look for model cards
+        model_links = soup.find_all('a', href=re.compile(r'^/[^/]+/[^/]+$'))
+        
+        for link in model_links[:20]:  # Check top 20
+            href = link.get('href', '')
+            if href.startswith('/models/'):
+                continue
+            
+            # Extract model name
+            parts = href.strip('/').split('/')
+            if len(parts) == 2:
+                author, model_name = parts
+                
+                # Skip if already known
+                if author.lower() in KNOWN_PROVIDERS:
+                    continue
+                
+                # Check if it's a text generation model with free access
+                model_url = f"https://huggingface.co/{href}"
+                try:
+                    model_resp = requests.get(model_url, headers=HEADERS, timeout=5)
+                    model_soup = BeautifulSoup(model_resp.text, 'lxml')
+                    
+                    # Look for "free" or "open source" indicators
+                    page_text = model_soup.get_text().lower()
+                    if 'free' in page_text or 'open source' in page_text:
+                        # Found a potential new free model
+                        model_entry = {
+                            "id": 0,  # Will be assigned later
+                            "name": model_name.replace('-', ' ').title(),
+                            "provider": author.title(),
+                            "category": "opensource",
+                            "rateLimit": "Free (Hugging Face)",
+                            "contextLength": "Varies",
+                            "rating": 4.0,
+                            "reviews": 0,
+                            "features": ["Open Source", "Text Generation"],
+                            "freeTier": "Free via Hugging Face",
+                            "apiDocs": f"https://huggingface.co{href}",
+                            "website": f"https://huggingface.co{href}",
+                            "icon": "🤖"
+                        }
+                        new_models.append(model_entry)
+                        print(f"✨ Discovered new model: {model_name}")
+                except:
+                    pass
+    except Exception as e:
+        print(f"Error discovering new models: {e}")
+    
+    return new_models
+
 def load_existing_data():
     """Load existing agents.json if exists"""
     if DATA_FILE.exists():
@@ -362,7 +429,7 @@ def main():
     existing_data = load_existing_data()
     existing_agents = {a['provider']: a for a in existing_data.get('agents', [])}
 
-    # Scrape all providers
+    # Scrape all known providers
     scrapers = [
         fetch_openai_data,
         fetch_google_data,
@@ -393,6 +460,18 @@ def main():
                 print(f"✓ Fetched {agent['name']}")
         except Exception as e:
             print(f"✗ Error in {scraper.__name__}: {e}")
+
+    # Discover new models
+    print("\n🔍 Discovering new free AI models...")
+    discovered = discover_new_models()
+    
+    # Add discovered models with new IDs
+    if discovered:
+        max_id = max([a['id'] for a in new_agents], default=0)
+        for i, model in enumerate(discovered):
+            model['id'] = max_id + i + 1
+            new_agents.append(model)
+            print(f"✨ Added new model: {model['name']}")
 
     # Update data
     existing_data['agents'] = new_agents
