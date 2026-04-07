@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "lastUpdated": "2025-04-08",
   "agents": [
     {
@@ -181,6 +181,21 @@
       "apiDocs": "https://platform.deepseek.com/docs",
       "website": "https://deepseek.com",
       "icon": "🔮"
+    },
+    {
+      "id": 13,
+      "name": "Meta Llama 3",
+      "provider": "Meta",
+      "category": "opensource",
+      "rateLimit": "Free (self-hosted)",
+      "contextLength": "8K tokens",
+      "rating": 4.7,
+      "reviews": 11200,
+      "features": ["Open Source", "Text Generation", "Code", "Multilingual", "Fine-tuning"],
+      "freeTier": "Completely free (self-hosted)",
+      "apiDocs": "https://llama.meta.com/docs",
+      "website": "https://llama.meta.com",
+      "icon": "🦙"
     }
   ]
 }
