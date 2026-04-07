@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free AI Agents Comparison</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🤖</span>
+                <h1>Free AI Agents</h1>
+            </div>
+            <p class="tagline">Compare the best free AI agents and their capabilities</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="filters-section">
+                <div class="filter-controls">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Search AI agents...">
+                    </div>
+                    <div class="filter-group">
+                        <label for="categoryFilter">Category:</label>
+                        <select id="categoryFilter">
+                            <option value="all">All Categories</option>
+                            <option value="cloud">Cloud API</option>
+                            <option value="local">Local/Offline</option>
+                            <option value="opensource">Open Source</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="sortBy">Sort by:</label>
+                        <select id="sortBy">
+                            <option value="name">Name</option>
+                            <option value="rateLimit">Rate Limit</option>
+                            <option value="contextLength">Context Length</option>
+                            <option value="rating">Rating</option>
+                        </select>
+                    </div>
+                    <div class="view-toggle">
+                        <button class="view-btn active" data-view="grid">Grid</button>
+                        <button class="view-btn" data-view="table">Table</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="agents-section">
+                <div class="stats-bar">
+                    <span id="agentCount">0 agents</span>
+                    <div class="legend">
+                        <span class="legend-item"><span class="dot cloud"></span> Cloud</span>
+                        <span class="legend-item"><span class="dot local"></span> Local</span>
+                        <span class="legend-item"><span class="dot opensource"></span> Open Source</span>
+                    </div>
+                </div>
+
+                <div id="agentsGrid" class="agents-grid"></div>
+
+                <div id="agentsTable" class="agents-table-wrapper" style="display: none;">
+                    <table class="agents-table">
+                        <thead>
+                            <tr>
+                                <th data-sort="name">Name ↕</th>
+                                <th data-sort="provider">Provider ↕</th>
+                                <th data-sort="category">Category ↕</th>
+                                <th data-sort="rateLimit">Rate Limit ↕</th>
+                                <th data-sort="contextLength">Context Length ↕</th>
+                                <th data-sort="rating">Rating ↕</th>
+                                <th>Features</th>
+                                <th>Links</th>
+                            </tr>
+                        </thead>
+                        <tbody id="agentsTableBody"></tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Free AI Agents Comparison. Data collected from public sources.</p>
+            <p>Last updated: <span id="lastUpdated"></span></p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
