@@ -2,7 +2,7 @@ name: Auto-Scrape AI Agents Data
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
+    - cron: '* * * * *'  # Every minute
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
