@@ -1,6 +1,6 @@
 {
-  "version": "2026.04.08",
-  "lastUpdated": "2026-04-08",
+  "version": "2026.04.07",
+  "lastUpdated": "2026-04-07",
   "agents": [
     {
       "id": 1,
@@ -357,24 +357,6 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
       "website": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
-      "icon": "🤖"
-    },
-    {
-      "id": 19,
-      "name": "Cohere Transcribe 03 2026",
-      "provider": "Coherelabs",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
-      "website": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
       "icon": "🤖"
     }
   ]
