@@ -2,6 +2,8 @@
 
 A comprehensive comparison website for free AI agents and their capabilities. This site helps developers and AI enthusiasts discover and compare different free AI agent services available online.
 
+**Made by Dr. Ali Hasan**
+
 ## Features
 
 - **Grid & Table Views** - Switch between card grid and detailed table layouts
@@ -137,5 +139,7 @@ MIT License - feel free to use this project for any purpose.
 This is an independent comparison site and is not affiliated with any of the AI providers mentioned. All information is collected from public sources. Free tier limits and features may change - always check the official documentation for the most up-to-date information.
 
 ---
+
+**Made by Dr. Ali Hasan**
 
 **Last Updated:** May 2025
