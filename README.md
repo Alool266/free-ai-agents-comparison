@@ -2,6 +2,8 @@
 
 A comprehensive comparison website for free AI agents and their capabilities. This site helps developers and AI enthusiasts discover and compare different free AI agent services available online.
 
+**Live Site:** https://alool266.github.io/free-ai-agents-comparison/
+
 **Made by Dr. Ali Hasan**
 
 ## Features
