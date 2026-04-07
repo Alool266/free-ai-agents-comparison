@@ -14,6 +14,11 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
+# Fix Windows console encoding for emojis
+if sys.platform == 'win32':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
 # Base directory
 BASE_DIR = Path(__file__).parent.parent
 DATA_FILE = BASE_DIR / 'data' / 'agents.json'

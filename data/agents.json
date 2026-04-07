@@ -1,6 +1,6 @@
 {
-  "version": "1.0.1",
-  "lastUpdated": "2025-04-08",
+  "version": "2026.04.08",
+  "lastUpdated": "2026-04-08",
   "agents": [
     {
       "id": 1,
@@ -11,7 +11,13 @@
       "contextLength": "128K tokens",
       "rating": 4.8,
       "reviews": 12500,
-      "features": ["Text Generation", "Code", "Vision", "Function Calling", "JSON Mode"],
+      "features": [
+        "Text Generation",
+        "Code",
+        "Vision",
+        "Function Calling",
+        "JSON Mode"
+      ],
       "freeTier": "500K tokens/day free",
       "apiDocs": "https://platform.openai.com/docs",
       "website": "https://openai.com",
@@ -26,7 +32,13 @@
       "contextLength": "32K tokens",
       "rating": 4.6,
       "reviews": 8900,
-      "features": ["Text Generation", "Vision", "Code", "Multilingual", "Grounding"],
+      "features": [
+        "Text Generation",
+        "Vision",
+        "Code",
+        "Multilingual",
+        "Grounding"
+      ],
       "freeTier": "60 requests/min free",
       "apiDocs": "https://ai.google.dev/docs",
       "website": "https://ai.google.dev",
@@ -41,7 +53,13 @@
       "contextLength": "200K tokens",
       "rating": 4.7,
       "reviews": 6200,
-      "features": ["Text Generation", "Vision", "Long Context", "Code", "Analysis"],
+      "features": [
+        "Text Generation",
+        "Vision",
+        "Long Context",
+        "Code",
+        "Analysis"
+      ],
       "freeTier": "$5 initial credit",
       "apiDocs": "https://docs.anthropic.com",
       "website": "https://anthropic.com",
@@ -56,7 +74,12 @@
       "contextLength": "32K tokens",
       "rating": 4.5,
       "reviews": 4100,
-      "features": ["Text Generation", "Code", "Multilingual", "Function Calling"],
+      "features": [
+        "Text Generation",
+        "Code",
+        "Multilingual",
+        "Function Calling"
+      ],
       "freeTier": "€2 initial credit",
       "apiDocs": "https://docs.mistral.ai",
       "website": "https://mistral.ai",
@@ -71,7 +94,12 @@
       "contextLength": "8K tokens",
       "rating": 4.4,
       "reviews": 3200,
-      "features": ["Ultra-Fast Inference", "Llama", "Mixtral", "Gemma"],
+      "features": [
+        "Ultra-Fast Inference",
+        "Llama",
+        "Mixtral",
+        "Gemma"
+      ],
       "freeTier": "30 requests/min free",
       "apiDocs": "https://console.groq.com/docs",
       "website": "https://groq.com",
@@ -86,7 +114,12 @@
       "contextLength": "4K tokens",
       "rating": 4.3,
       "reviews": 2800,
-      "features": ["Embeddings", "Classification", "Rerank", "Generation"],
+      "features": [
+        "Embeddings",
+        "Classification",
+        "Rerank",
+        "Generation"
+      ],
       "freeTier": "100 requests/min free",
       "apiDocs": "https://docs.cohere.com",
       "website": "https://cohere.com",
@@ -101,7 +134,13 @@
       "contextLength": "Varies by model",
       "rating": 4.5,
       "reviews": 15000,
-      "features": ["100K+ Models", "Open Source", "Community", "API", "Datasets"],
+      "features": [
+        "100K+ Models",
+        "Open Source",
+        "Community",
+        "API",
+        "Datasets"
+      ],
       "freeTier": "30K tokens/day free",
       "apiDocs": "https://huggingface.co/docs",
       "website": "https://huggingface.co",
@@ -116,7 +155,13 @@
       "contextLength": "Varies by model",
       "rating": 4.6,
       "reviews": 9500,
-      "features": ["Local Execution", "Offline", "Privacy", "Multiple Models", "Open Source"],
+      "features": [
+        "Local Execution",
+        "Offline",
+        "Privacy",
+        "Multiple Models",
+        "Open Source"
+      ],
       "freeTier": "100% Free (Local)",
       "apiDocs": "https://ollama.com/docs",
       "website": "https://ollama.com",
@@ -131,7 +176,13 @@
       "contextLength": "Varies by model",
       "rating": 4.4,
       "reviews": 5600,
-      "features": ["Local Execution", "GUI", "Offline", "GGUF Models", "OpenAI Compatible"],
+      "features": [
+        "Local Execution",
+        "GUI",
+        "Offline",
+        "GGUF Models",
+        "OpenAI Compatible"
+      ],
       "freeTier": "100% Free (Local)",
       "apiDocs": "https://lmstudio.ai/docs",
       "website": "https://lmstudio.ai",
@@ -146,7 +197,12 @@
       "contextLength": "32K tokens",
       "rating": 4.3,
       "reviews": 2100,
-      "features": ["Open Source Models", "Fast Inference", "Fine-tuning", "API"],
+      "features": [
+        "Open Source Models",
+        "Fast Inference",
+        "Fine-tuning",
+        "API"
+      ],
       "freeTier": "$25 initial credit",
       "apiDocs": "https://docs.together.ai",
       "website": "https://together.ai",
@@ -161,7 +217,12 @@
       "contextLength": "32K tokens",
       "rating": 4.5,
       "reviews": 7800,
-      "features": ["Search Integration", "Citations", "Real-time", "Code"],
+      "features": [
+        "Search Integration",
+        "Citations",
+        "Real-time",
+        "Code"
+      ],
       "freeTier": "Limited free queries",
       "apiDocs": "https://docs.perplexity.ai",
       "website": "https://perplexity.ai",
@@ -176,7 +237,12 @@
       "contextLength": "128K tokens",
       "rating": 4.4,
       "reviews": 3400,
-      "features": ["Code Generation", "Math", "Reasoning", "Long Context"],
+      "features": [
+        "Code Generation",
+        "Math",
+        "Reasoning",
+        "Long Context"
+      ],
       "freeTier": "Free tier available",
       "apiDocs": "https://platform.deepseek.com/docs",
       "website": "https://deepseek.com",
@@ -191,11 +257,125 @@
       "contextLength": "8K tokens",
       "rating": 4.7,
       "reviews": 11200,
-      "features": ["Open Source", "Text Generation", "Code", "Multilingual", "Fine-tuning"],
+      "features": [
+        "Open Source",
+        "Text Generation",
+        "Code",
+        "Multilingual",
+        "Fine-tuning"
+      ],
       "freeTier": "Completely free (self-hosted)",
       "apiDocs": "https://llama.meta.com/docs",
       "website": "https://llama.meta.com",
       "icon": "🦙"
+    },
+    {
+      "id": 14,
+      "name": "Gemma 4 31B Jang_4M Crack",
+      "provider": "Dealignai",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "website": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "icon": "🤖"
+    },
+    {
+      "id": 15,
+      "name": "Qwen3.5 27B Claude 4.6 Opus Reasoning Distilled",
+      "provider": "Jackrong",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "website": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "icon": "🤖"
+    },
+    {
+      "id": 16,
+      "name": "Gemma 4 26B A4B It Gguf",
+      "provider": "Unsloth",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
+      "website": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
+      "icon": "🤖"
+    },
+    {
+      "id": 17,
+      "name": "Hy Omniweaving",
+      "provider": "Tencent",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/tencent/HY-OmniWeaving",
+      "website": "https://huggingface.co/tencent/HY-OmniWeaving",
+      "icon": "🤖"
+    },
+    {
+      "id": 18,
+      "name": "Gemma 4 31B It Gguf",
+      "provider": "Unsloth",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
+      "website": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
+      "icon": "🤖"
+    },
+    {
+      "id": 19,
+      "name": "Cohere Transcribe 03 2026",
+      "provider": "Coherelabs",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+      "website": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+      "icon": "🤖"
     }
   ]
 }
