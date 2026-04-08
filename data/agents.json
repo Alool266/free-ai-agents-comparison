@@ -1,6 +1,6 @@
 {
-  "version": "2026.04.07",
-  "lastUpdated": "2026-04-07",
+  "version": "2026.04.08",
+  "lastUpdated": "2026-04-08",
   "agents": [
     {
       "id": 1,
@@ -343,6 +343,24 @@
     },
     {
       "id": 18,
+      "name": "Hy Omniweaving",
+      "provider": "Tencent",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/tencent/HY-OmniWeaving",
+      "website": "https://huggingface.co/tencent/HY-OmniWeaving",
+      "icon": "🤖"
+    },
+    {
+      "id": 19,
       "name": "Gemma 4 31B It Gguf",
       "provider": "Unsloth",
       "category": "opensource",
