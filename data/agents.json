@@ -376,6 +376,24 @@
       "apiDocs": "https://huggingface.co/tencent/HY-OmniWeaving",
       "website": "https://huggingface.co/tencent/HY-OmniWeaving",
       "icon": "🤖"
+    },
+    {
+      "id": 20,
+      "name": "Gemma 4 E4B It Gguf",
+      "provider": "Unsloth",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF",
+      "website": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF",
+      "icon": "🤖"
     }
   ]
 }
