@@ -289,24 +289,6 @@
     },
     {
       "id": 15,
-      "name": "Qwen3.5 27B Claude 4.6 Opus Reasoning Distilled",
-      "provider": "Jackrong",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-      "website": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-      "icon": "🤖"
-    },
-    {
-      "id": 16,
       "name": "Voxcpm2",
       "provider": "Openbmb",
       "category": "opensource",
@@ -321,6 +303,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/openbmb/VoxCPM2",
       "website": "https://huggingface.co/openbmb/VoxCPM2",
+      "icon": "🤖"
+    },
+    {
+      "id": 16,
+      "name": "Qwen3.5 27B Claude 4.6 Opus Reasoning Distilled",
+      "provider": "Jackrong",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "website": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
       "icon": "🤖"
     },
     {
