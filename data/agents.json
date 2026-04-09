@@ -307,6 +307,24 @@
     },
     {
       "id": 16,
+      "name": "Voxcpm2",
+      "provider": "Openbmb",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/openbmb/VoxCPM2",
+      "website": "https://huggingface.co/openbmb/VoxCPM2",
+      "icon": "🤖"
+    },
+    {
+      "id": 17,
       "name": "Gemma 4 26B A4B It Gguf",
       "provider": "Unsloth",
       "category": "opensource",
@@ -324,7 +342,7 @@
       "icon": "🤖"
     },
     {
-      "id": 17,
+      "id": 18,
       "name": "Gemma 4 31B It Gguf",
       "provider": "Unsloth",
       "category": "opensource",
@@ -342,7 +360,7 @@
       "icon": "🤖"
     },
     {
-      "id": 18,
+      "id": 19,
       "name": "Hy Omniweaving",
       "provider": "Tencent",
       "category": "opensource",
