@@ -289,6 +289,24 @@
     },
     {
       "id": 15,
+      "name": "Voxcpm2",
+      "provider": "Openbmb",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/openbmb/VoxCPM2",
+      "website": "https://huggingface.co/openbmb/VoxCPM2",
+      "icon": "🤖"
+    },
+    {
+      "id": 16,
       "name": "Qwen3.5 27B Claude 4.6 Opus Reasoning Distilled",
       "provider": "Jackrong",
       "category": "opensource",
@@ -306,7 +324,7 @@
       "icon": "🤖"
     },
     {
-      "id": 16,
+      "id": 17,
       "name": "Gemma 4 26B A4B It Gguf",
       "provider": "Unsloth",
       "category": "opensource",
@@ -324,7 +342,25 @@
       "icon": "🤖"
     },
     {
-      "id": 17,
+      "id": 18,
+      "name": "Gemma 4 31B It Gguf",
+      "provider": "Unsloth",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
+      "website": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
+      "icon": "🤖"
+    },
+    {
+      "id": 19,
       "name": "Hy Embodied 0.5",
       "provider": "Tencent",
       "category": "opensource",
