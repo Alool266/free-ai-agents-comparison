@@ -271,24 +271,6 @@
     },
     {
       "id": 14,
-      "name": "Voxcpm2",
-      "provider": "Openbmb",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/openbmb/VoxCPM2",
-      "website": "https://huggingface.co/openbmb/VoxCPM2",
-      "icon": "🤖"
-    },
-    {
-      "id": 15,
       "name": "Hy Embodied 0.5",
       "provider": "Tencent",
       "category": "opensource",
@@ -303,6 +285,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/tencent/HY-Embodied-0.5",
       "website": "https://huggingface.co/tencent/HY-Embodied-0.5",
+      "icon": "🤖"
+    },
+    {
+      "id": 15,
+      "name": "Voxcpm2",
+      "provider": "Openbmb",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/openbmb/VoxCPM2",
+      "website": "https://huggingface.co/openbmb/VoxCPM2",
       "icon": "🤖"
     },
     {
