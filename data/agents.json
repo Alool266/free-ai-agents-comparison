@@ -358,24 +358,6 @@
       "apiDocs": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
       "website": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
       "icon": "🤖"
-    },
-    {
-      "id": 19,
-      "name": "Lfm2.5 Vl 450M",
-      "provider": "Liquidai",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M",
-      "website": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M",
-      "icon": "🤖"
     }
   ]
 }
