@@ -325,6 +325,24 @@
     },
     {
       "id": 17,
+      "name": "Gemma 4 E4B It Obliterated",
+      "provider": "Obliteratus",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+      "website": "https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+      "icon": "🤖"
+    },
+    {
+      "id": 18,
       "name": "Qwen3.5 27B Claude 4.6 Opus Reasoning Distilled",
       "provider": "Jackrong",
       "category": "opensource",
@@ -339,6 +357,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
       "website": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "icon": "🤖"
+    },
+    {
+      "id": 19,
+      "name": "Hy World 2.0",
+      "provider": "Tencent",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/tencent/HY-World-2.0",
+      "website": "https://huggingface.co/tencent/HY-World-2.0",
       "icon": "🤖"
     }
   ]
