@@ -1,6 +1,6 @@
 {
-  "version": "2026.04.16",
-  "lastUpdated": "2026-04-16",
+  "version": "2026.04.17",
+  "lastUpdated": "2026-04-17",
   "agents": [
     {
       "id": 1,
@@ -393,6 +393,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/tencent/HY-World-2.0",
       "website": "https://huggingface.co/tencent/HY-World-2.0",
+      "icon": "🤖"
+    },
+    {
+      "id": 21,
+      "name": "Qwen3.5 27B Claude 4.6 Opus Reasoning Distilled",
+      "provider": "Jackrong",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "website": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
       "icon": "🤖"
     }
   ]
