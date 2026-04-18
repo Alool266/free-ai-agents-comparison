@@ -394,6 +394,24 @@
       "apiDocs": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
       "website": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
       "icon": "🤖"
+    },
+    {
+      "id": 21,
+      "name": "Moss Tts Nano 100M",
+      "provider": "Openmoss-Team",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Nano-100M",
+      "website": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Nano-100M",
+      "icon": "🤖"
     }
   ]
 }
