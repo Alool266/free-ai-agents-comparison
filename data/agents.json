@@ -343,24 +343,6 @@
     },
     {
       "id": 18,
-      "name": "Gemma 4 31B Jang_4M Crack",
-      "provider": "Dealignai",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
-      "website": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
-      "icon": "🤖"
-    },
-    {
-      "id": 19,
       "name": "Gemma 4 E4B It Obliterated",
       "provider": "Obliteratus",
       "category": "opensource",
@@ -375,6 +357,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
       "website": "https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+      "icon": "🤖"
+    },
+    {
+      "id": 19,
+      "name": "Gemma 4 31B Jang_4M Crack",
+      "provider": "Dealignai",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "website": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
       "icon": "🤖"
     },
     {
