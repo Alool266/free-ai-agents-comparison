@@ -325,24 +325,6 @@
     },
     {
       "id": 17,
-      "name": "Hy Embodied 0.5",
-      "provider": "Tencent",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/tencent/HY-Embodied-0.5",
-      "website": "https://huggingface.co/tencent/HY-Embodied-0.5",
-      "icon": "🤖"
-    },
-    {
-      "id": 18,
       "name": "Gemma 4 E4B It Obliterated",
       "provider": "Obliteratus",
       "category": "opensource",
@@ -357,6 +339,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
       "website": "https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+      "icon": "🤖"
+    },
+    {
+      "id": 18,
+      "name": "Hy Embodied 0.5",
+      "provider": "Tencent",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/tencent/HY-Embodied-0.5",
+      "website": "https://huggingface.co/tencent/HY-Embodied-0.5",
       "icon": "🤖"
     },
     {
@@ -375,6 +375,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/openbmb/VoxCPM2",
       "website": "https://huggingface.co/openbmb/VoxCPM2",
+      "icon": "🤖"
+    },
+    {
+      "id": 20,
+      "name": "Qwen3.6 35B A3B Fp8",
+      "provider": "Qwen",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
+      "website": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
       "icon": "🤖"
     }
   ]
