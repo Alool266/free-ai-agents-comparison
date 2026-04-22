@@ -379,24 +379,6 @@
     },
     {
       "id": 20,
-      "name": "Hy Embodied 0.5",
-      "provider": "Tencent",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/tencent/HY-Embodied-0.5",
-      "website": "https://huggingface.co/tencent/HY-Embodied-0.5",
-      "icon": "🤖"
-    },
-    {
-      "id": 21,
       "name": "Qwen3.6 27B Gguf",
       "provider": "Unsloth",
       "category": "opensource",
@@ -411,6 +393,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
       "website": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
+      "icon": "🤖"
+    },
+    {
+      "id": 21,
+      "name": "Hy Embodied 0.5",
+      "provider": "Tencent",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/tencent/HY-Embodied-0.5",
+      "website": "https://huggingface.co/tencent/HY-Embodied-0.5",
       "icon": "🤖"
     },
     {
