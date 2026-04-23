@@ -24,6 +24,27 @@
       "icon": "🧠"
     },
     {
+      "id": 2,
+      "name": "Google Gemini",
+      "provider": "Google",
+      "category": "cloud",
+      "rateLimit": "60 RPM (free)",
+      "contextLength": "32K tokens",
+      "rating": 4.6,
+      "reviews": 8900,
+      "features": [
+        "Text Generation",
+        "Vision",
+        "Code",
+        "Multilingual",
+        "Grounding"
+      ],
+      "freeTier": "60 requests/min free",
+      "apiDocs": "https://ai.google.dev/docs",
+      "website": "https://ai.google.dev",
+      "icon": "💎"
+    },
+    {
       "id": 3,
       "name": "Claude 3 Haiku",
       "provider": "Anthropic",
@@ -286,24 +307,6 @@
     },
     {
       "id": 16,
-      "name": "Hy World 2.0",
-      "provider": "Tencent",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/tencent/HY-World-2.0",
-      "website": "https://huggingface.co/tencent/HY-World-2.0",
-      "icon": "🤖"
-    },
-    {
-      "id": 17,
       "name": "Qwen3.6 27B",
       "provider": "Qwen",
       "category": "opensource",
@@ -318,6 +321,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/Qwen/Qwen3.6-27B",
       "website": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "icon": "🤖"
+    },
+    {
+      "id": 17,
+      "name": "Hy World 2.0",
+      "provider": "Tencent",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/tencent/HY-World-2.0",
+      "website": "https://huggingface.co/tencent/HY-World-2.0",
       "icon": "🤖"
     },
     {
@@ -390,24 +411,6 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
       "website": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
-      "icon": "🤖"
-    },
-    {
-      "id": 22,
-      "name": "Hy Embodied 0.5",
-      "provider": "Tencent",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/tencent/HY-Embodied-0.5",
-      "website": "https://huggingface.co/tencent/HY-Embodied-0.5",
       "icon": "🤖"
     }
   ]
