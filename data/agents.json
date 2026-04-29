@@ -343,6 +343,24 @@
     },
     {
       "id": 18,
+      "name": "Nemotron 3 Nano Omni 30B A3B Reasoning Bf16",
+      "provider": "Nvidia",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+      "website": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+      "icon": "🤖"
+    },
+    {
+      "id": 19,
       "name": "Qwen3.6 27B Fp8",
       "provider": "Qwen",
       "category": "opensource",
