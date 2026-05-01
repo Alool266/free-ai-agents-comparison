@@ -289,24 +289,6 @@
     },
     {
       "id": 15,
-      "name": "Qwen3.6 35B A3B",
-      "provider": "Qwen",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
-      "website": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
-      "icon": "🤖"
-    },
-    {
-      "id": 16,
       "name": "Nemotron 3 Nano Omni 30B A3B Reasoning Bf16",
       "provider": "Nvidia",
       "category": "opensource",
@@ -324,9 +306,9 @@
       "icon": "🤖"
     },
     {
-      "id": 17,
-      "name": "Qwen3.6 27B Gguf",
-      "provider": "Unsloth",
+      "id": 16,
+      "name": "Qwen3.6 35B A3B",
+      "provider": "Qwen",
       "category": "opensource",
       "rateLimit": "Free (Hugging Face)",
       "contextLength": "Varies",
@@ -337,12 +319,12 @@
         "Text Generation"
       ],
       "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
-      "website": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
+      "apiDocs": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "website": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
       "icon": "🤖"
     },
     {
-      "id": 18,
+      "id": 17,
       "name": "Laguna Xs.2",
       "provider": "Poolside",
       "category": "opensource",
@@ -357,6 +339,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/poolside/Laguna-XS.2",
       "website": "https://huggingface.co/poolside/Laguna-XS.2",
+      "icon": "🤖"
+    },
+    {
+      "id": 18,
+      "name": "Qwen3.6 27B Gguf",
+      "provider": "Unsloth",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
+      "website": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
       "icon": "🤖"
     },
     {
