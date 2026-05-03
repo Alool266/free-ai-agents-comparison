@@ -343,24 +343,6 @@
     },
     {
       "id": 18,
-      "name": "Qwen3.6 27B Gguf",
-      "provider": "Unsloth",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
-      "website": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
-      "icon": "🤖"
-    },
-    {
-      "id": 19,
       "name": "Sensenova U1 8B Mot",
       "provider": "Sensenova",
       "category": "opensource",
@@ -378,8 +360,8 @@
       "icon": "🤖"
     },
     {
-      "id": 20,
-      "name": "Qwen3.6 35B A3B Gguf",
+      "id": 19,
+      "name": "Qwen3.6 27B Gguf",
       "provider": "Unsloth",
       "category": "opensource",
       "rateLimit": "Free (Hugging Face)",
@@ -391,12 +373,12 @@
         "Text Generation"
       ],
       "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
-      "website": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+      "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
+      "website": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
       "icon": "🤖"
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "Ling 2.6 1T",
       "provider": "Inclusionai",
       "category": "opensource",
@@ -411,6 +393,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/inclusionAI/Ling-2.6-1T",
       "website": "https://huggingface.co/inclusionAI/Ling-2.6-1T",
+      "icon": "🤖"
+    },
+    {
+      "id": 21,
+      "name": "Qwen3.6 35B A3B Gguf",
+      "provider": "Unsloth",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+      "website": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
       "icon": "🤖"
     }
   ]
