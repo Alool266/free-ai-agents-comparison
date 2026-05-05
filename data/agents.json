@@ -397,24 +397,6 @@
     },
     {
       "id": 21,
-      "name": "Nvidia Nemotron 3 Nano Omni 30B A3B Reasoning Gguf",
-      "provider": "Unsloth",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
-      "website": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
-      "icon": "🤖"
-    },
-    {
-      "id": 22,
       "name": "Qwen3.6 27B Gguf",
       "provider": "Unsloth",
       "category": "opensource",
