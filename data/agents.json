@@ -379,24 +379,6 @@
     },
     {
       "id": 20,
-      "name": "Qwen3.6 27B Gguf",
-      "provider": "Unsloth",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
-      "website": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
-      "icon": "🤖"
-    },
-    {
-      "id": 21,
       "name": "Granite 4.1 8B",
       "provider": "Ibm-Granite",
       "category": "opensource",
@@ -414,7 +396,7 @@
       "icon": "🤖"
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "Granite 4.1 30B",
       "provider": "Ibm-Granite",
       "category": "opensource",
@@ -429,6 +411,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/ibm-granite/granite-4.1-30b",
       "website": "https://huggingface.co/ibm-granite/granite-4.1-30b",
+      "icon": "🤖"
+    },
+    {
+      "id": 22,
+      "name": "Qwen3.6 27B Gguf",
+      "provider": "Unsloth",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
+      "website": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
       "icon": "🤖"
     }
   ]
