@@ -325,24 +325,6 @@
     },
     {
       "id": 17,
-      "name": "Sensenova U1 8B Mot",
-      "provider": "Sensenova",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
-      "website": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
-      "icon": "🤖"
-    },
-    {
-      "id": 18,
       "name": "Qwen3.6 35B A3B",
       "provider": "Qwen",
       "category": "opensource",
@@ -360,9 +342,9 @@
       "icon": "🤖"
     },
     {
-      "id": 19,
-      "name": "Nvidia Nemotron 3 Nano Omni 30B A3B Reasoning Gguf",
-      "provider": "Unsloth",
+      "id": 18,
+      "name": "Sensenova U1 8B Mot",
+      "provider": "Sensenova",
       "category": "opensource",
       "rateLimit": "Free (Hugging Face)",
       "contextLength": "Varies",
@@ -373,12 +355,12 @@
         "Text Generation"
       ],
       "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
-      "website": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
+      "apiDocs": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
+      "website": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
       "icon": "🤖"
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "Granite 4.1 8B",
       "provider": "Ibm-Granite",
       "category": "opensource",
@@ -396,7 +378,7 @@
       "icon": "🤖"
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "Granite 4.1 30B",
       "provider": "Ibm-Granite",
       "category": "opensource",
@@ -411,6 +393,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/ibm-granite/granite-4.1-30b",
       "website": "https://huggingface.co/ibm-granite/granite-4.1-30b",
+      "icon": "🤖"
+    },
+    {
+      "id": 21,
+      "name": "Nvidia Nemotron 3 Nano Omni 30B A3B Reasoning Gguf",
+      "provider": "Unsloth",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
+      "website": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
       "icon": "🤖"
     },
     {
