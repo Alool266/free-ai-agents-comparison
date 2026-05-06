@@ -343,42 +343,6 @@
     },
     {
       "id": 18,
-      "name": "Granite 4.1 30B",
-      "provider": "Ibm-Granite",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/ibm-granite/granite-4.1-30b",
-      "website": "https://huggingface.co/ibm-granite/granite-4.1-30b",
-      "icon": "🤖"
-    },
-    {
-      "id": 19,
-      "name": "Granite 4.1 8B",
-      "provider": "Ibm-Granite",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/ibm-granite/granite-4.1-8b",
-      "website": "https://huggingface.co/ibm-granite/granite-4.1-8b",
-      "icon": "🤖"
-    },
-    {
-      "id": 20,
       "name": "Sensenova U1 8B Mot",
       "provider": "Sensenova",
       "category": "opensource",
@@ -396,7 +360,7 @@
       "icon": "🤖"
     },
     {
-      "id": 21,
+      "id": 19,
       "name": "Qwen3.6 27B Gguf",
       "provider": "Unsloth",
       "category": "opensource",
@@ -411,6 +375,42 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
       "website": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
+      "icon": "🤖"
+    },
+    {
+      "id": 20,
+      "name": "Granite 4.1 8B",
+      "provider": "Ibm-Granite",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/ibm-granite/granite-4.1-8b",
+      "website": "https://huggingface.co/ibm-granite/granite-4.1-8b",
+      "icon": "🤖"
+    },
+    {
+      "id": 21,
+      "name": "Gemma 4 31B Jang_4M Crack",
+      "provider": "Dealignai",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "website": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
       "icon": "🤖"
     }
   ]
