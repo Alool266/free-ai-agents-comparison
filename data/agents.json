@@ -271,24 +271,6 @@
     },
     {
       "id": 14,
-      "name": "Nemotron 3 Nano Omni 30B A3B Reasoning Bf16",
-      "provider": "Nvidia",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
-      "website": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
-      "icon": "🤖"
-    },
-    {
-      "id": 15,
       "name": "Qwen3.6 27B",
       "provider": "Qwen",
       "category": "opensource",
@@ -303,6 +285,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/Qwen/Qwen3.6-27B",
       "website": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "icon": "🤖"
+    },
+    {
+      "id": 15,
+      "name": "Nemotron 3 Nano Omni 30B A3B Reasoning Bf16",
+      "provider": "Nvidia",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+      "website": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
       "icon": "🤖"
     },
     {
@@ -343,24 +343,6 @@
     },
     {
       "id": 18,
-      "name": "Sensenova U1 8B Mot",
-      "provider": "Sensenova",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
-      "website": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
-      "icon": "🤖"
-    },
-    {
-      "id": 19,
       "name": "Granite 4.1 8B",
       "provider": "Ibm-Granite",
       "category": "opensource",
@@ -378,7 +360,7 @@
       "icon": "🤖"
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "Granite 4.1 30B",
       "provider": "Ibm-Granite",
       "category": "opensource",
@@ -393,6 +375,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/ibm-granite/granite-4.1-30b",
       "website": "https://huggingface.co/ibm-granite/granite-4.1-30b",
+      "icon": "🤖"
+    },
+    {
+      "id": 20,
+      "name": "Sensenova U1 8B Mot",
+      "provider": "Sensenova",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
+      "website": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
       "icon": "🤖"
     },
     {
