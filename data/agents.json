@@ -379,24 +379,6 @@
     },
     {
       "id": 20,
-      "name": "Granite 4.1 8B",
-      "provider": "Ibm-Granite",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/ibm-granite/granite-4.1-8b",
-      "website": "https://huggingface.co/ibm-granite/granite-4.1-8b",
-      "icon": "🤖"
-    },
-    {
-      "id": 21,
       "name": "Gemma 4 31B Jang_4M Crack",
       "provider": "Dealignai",
       "category": "opensource",
