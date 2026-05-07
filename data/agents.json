@@ -376,6 +376,24 @@
       "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
       "website": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
       "icon": "🤖"
+    },
+    {
+      "id": 20,
+      "name": "Laguna Xs.2",
+      "provider": "Poolside",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/poolside/Laguna-XS.2",
+      "website": "https://huggingface.co/poolside/Laguna-XS.2",
+      "icon": "🤖"
     }
   ]
 }
