@@ -307,24 +307,6 @@
     },
     {
       "id": 16,
-      "name": "Nemotron 3 Nano Omni 30B A3B Reasoning Bf16",
-      "provider": "Nvidia",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
-      "website": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
-      "icon": "🤖"
-    },
-    {
-      "id": 17,
       "name": "Sensenova U1 8B Mot",
       "provider": "Sensenova",
       "category": "opensource",
@@ -339,6 +321,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
       "website": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
+      "icon": "🤖"
+    },
+    {
+      "id": 17,
+      "name": "Nemotron 3 Nano Omni 30B A3B Reasoning Bf16",
+      "provider": "Nvidia",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+      "website": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
       "icon": "🤖"
     },
     {
@@ -375,24 +375,6 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
       "website": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
-      "icon": "🤖"
-    },
-    {
-      "id": 20,
-      "name": "Laguna Xs.2",
-      "provider": "Poolside",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/poolside/Laguna-XS.2",
-      "website": "https://huggingface.co/poolside/Laguna-XS.2",
       "icon": "🤖"
     }
   ]
