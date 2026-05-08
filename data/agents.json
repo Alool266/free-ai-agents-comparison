@@ -325,24 +325,6 @@
     },
     {
       "id": 17,
-      "name": "Gemma 4 31B Jang_4M Crack",
-      "provider": "Dealignai",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
-      "website": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
-      "icon": "🤖"
-    },
-    {
-      "id": 18,
       "name": "Qwen3.6 27B Gguf",
       "provider": "Unsloth",
       "category": "opensource",
@@ -357,6 +339,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
       "website": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
+      "icon": "🤖"
+    },
+    {
+      "id": 18,
+      "name": "Gemma 4 31B Jang_4M Crack",
+      "provider": "Dealignai",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "website": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
       "icon": "🤖"
     },
     {
