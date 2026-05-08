@@ -361,8 +361,8 @@
     },
     {
       "id": 19,
-      "name": "Gemma 4 31B Jang_4M Crack",
-      "provider": "Dealignai",
+      "name": "Qwen3.6 35B A3B Gguf",
+      "provider": "Unsloth",
       "category": "opensource",
       "rateLimit": "Free (Hugging Face)",
       "contextLength": "Varies",
@@ -373,8 +373,8 @@
         "Text Generation"
       ],
       "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
-      "website": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+      "website": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
       "icon": "🤖"
     },
     {
