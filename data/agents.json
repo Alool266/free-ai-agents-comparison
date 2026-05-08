@@ -343,24 +343,6 @@
     },
     {
       "id": 18,
-      "name": "Nemotron 3 Nano Omni 30B A3B Reasoning Bf16",
-      "provider": "Nvidia",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
-      "website": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
-      "icon": "🤖"
-    },
-    {
-      "id": 19,
       "name": "Qwen3.6 27B Gguf",
       "provider": "Unsloth",
       "category": "opensource",
@@ -378,9 +360,9 @@
       "icon": "🤖"
     },
     {
-      "id": 20,
-      "name": "Laguna Xs.2",
-      "provider": "Poolside",
+      "id": 19,
+      "name": "Nemotron 3 Nano Omni 30B A3B Reasoning Bf16",
+      "provider": "Nvidia",
       "category": "opensource",
       "rateLimit": "Free (Hugging Face)",
       "contextLength": "Varies",
@@ -391,8 +373,26 @@
         "Text Generation"
       ],
       "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/poolside/Laguna-XS.2",
-      "website": "https://huggingface.co/poolside/Laguna-XS.2",
+      "apiDocs": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+      "website": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+      "icon": "🤖"
+    },
+    {
+      "id": 20,
+      "name": "Qwen3.6 35B A3B Gguf",
+      "provider": "Unsloth",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+      "website": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
       "icon": "🤖"
     }
   ]
