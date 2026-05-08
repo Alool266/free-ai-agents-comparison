@@ -379,8 +379,8 @@
     },
     {
       "id": 20,
-      "name": "Qwen3.6 35B A3B Gguf",
-      "provider": "Unsloth",
+      "name": "Qwopus3.6 35B A3B V1 Gguf",
+      "provider": "Jackrong",
       "category": "opensource",
       "rateLimit": "Free (Hugging Face)",
       "contextLength": "Varies",
@@ -391,8 +391,8 @@
         "Text Generation"
       ],
       "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
-      "website": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+      "apiDocs": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
+      "website": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
       "icon": "🤖"
     }
   ]
