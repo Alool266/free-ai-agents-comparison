@@ -307,24 +307,6 @@
     },
     {
       "id": 16,
-      "name": "Sensenova U1 8B Mot",
-      "provider": "Sensenova",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
-      "website": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
-      "icon": "🤖"
-    },
-    {
-      "id": 17,
       "name": "Qwopus3.6 35B A3B V1 Gguf",
       "provider": "Jackrong",
       "category": "opensource",
@@ -339,6 +321,24 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
       "website": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
+      "icon": "🤖"
+    },
+    {
+      "id": 17,
+      "name": "Sensenova U1 8B Mot",
+      "provider": "Sensenova",
+      "category": "opensource",
+      "rateLimit": "Free (Hugging Face)",
+      "contextLength": "Varies",
+      "rating": 4.0,
+      "reviews": 0,
+      "features": [
+        "Open Source",
+        "Text Generation"
+      ],
+      "freeTier": "Free via Hugging Face",
+      "apiDocs": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
+      "website": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
       "icon": "🤖"
     },
     {
@@ -357,24 +357,6 @@
       "freeTier": "Free via Hugging Face",
       "apiDocs": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
       "website": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
-      "icon": "🤖"
-    },
-    {
-      "id": 19,
-      "name": "Qwen3.6 27B Heretic Uncensored Finetune Neo Code Di Imatrix Max Gguf",
-      "provider": "Davidau",
-      "category": "opensource",
-      "rateLimit": "Free (Hugging Face)",
-      "contextLength": "Varies",
-      "rating": 4.0,
-      "reviews": 0,
-      "features": [
-        "Open Source",
-        "Text Generation"
-      ],
-      "freeTier": "Free via Hugging Face",
-      "apiDocs": "https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
-      "website": "https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "icon": "🤖"
     }
   ]
