@@ -1,28 +1,7 @@
 {
-  "version": "2026.07.14",
-  "lastUpdated": "2026-07-14",
+  "version": "2026.07.15",
+  "lastUpdated": "2026-07-15",
   "agents": [
-    {
-      "id": 1,
-      "name": "OpenAI GPT-4o mini",
-      "provider": "OpenAI",
-      "category": "cloud",
-      "rateLimit": "500K tokens/day",
-      "contextLength": "128K tokens",
-      "rating": 4.8,
-      "reviews": 12500,
-      "features": [
-        "Text Generation",
-        "Code",
-        "Vision",
-        "Function Calling",
-        "JSON Mode"
-      ],
-      "freeTier": "500K tokens/day free",
-      "apiDocs": "https://platform.openai.com/docs",
-      "website": "https://openai.com",
-      "icon": "🧠"
-    },
     {
       "id": 2,
       "name": "Google Gemini",
