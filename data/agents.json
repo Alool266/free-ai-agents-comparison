@@ -66,26 +66,6 @@
       "icon": "🤖"
     },
     {
-      "id": 4,
-      "name": "Mistral AI",
-      "provider": "Mistral",
-      "category": "cloud",
-      "rateLimit": "€2 free credit",
-      "contextLength": "32K tokens",
-      "rating": 4.5,
-      "reviews": 4100,
-      "features": [
-        "Text Generation",
-        "Code",
-        "Multilingual",
-        "Function Calling"
-      ],
-      "freeTier": "€2 initial credit",
-      "apiDocs": "https://docs.mistral.ai",
-      "website": "https://mistral.ai",
-      "icon": "🌪️"
-    },
-    {
       "id": 5,
       "name": "Groq",
       "provider": "Groq",
