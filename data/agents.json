@@ -1,6 +1,6 @@
 {
-  "version": "2026.07.22",
-  "lastUpdated": "2026-07-22",
+  "version": "2026.07.23",
+  "lastUpdated": "2026-07-23",
   "agents": [
     {
       "id": 1,
@@ -64,6 +64,26 @@
       "apiDocs": "https://docs.anthropic.com",
       "website": "https://anthropic.com",
       "icon": "🤖"
+    },
+    {
+      "id": 4,
+      "name": "Mistral AI",
+      "provider": "Mistral",
+      "category": "cloud",
+      "rateLimit": "€2 free credit",
+      "contextLength": "32K tokens",
+      "rating": 4.5,
+      "reviews": 4100,
+      "features": [
+        "Text Generation",
+        "Code",
+        "Multilingual",
+        "Function Calling"
+      ],
+      "freeTier": "€2 initial credit",
+      "apiDocs": "https://docs.mistral.ai",
+      "website": "https://mistral.ai",
+      "icon": "🌪️"
     },
     {
       "id": 5,
