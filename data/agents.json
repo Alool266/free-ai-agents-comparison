@@ -189,6 +189,26 @@
       "icon": "🎨"
     },
     {
+      "id": 10,
+      "name": "Together AI",
+      "provider": "Together AI",
+      "category": "cloud",
+      "rateLimit": "$25 free credit",
+      "contextLength": "32K tokens",
+      "rating": 4.3,
+      "reviews": 2100,
+      "features": [
+        "Open Source Models",
+        "Fast Inference",
+        "Fine-tuning",
+        "API"
+      ],
+      "freeTier": "$25 initial credit",
+      "apiDocs": "https://docs.together.ai",
+      "website": "https://together.ai",
+      "icon": "🚀"
+    },
+    {
       "id": 11,
       "name": "Perplexity AI",
       "provider": "Perplexity",
@@ -207,6 +227,26 @@
       "apiDocs": "https://docs.perplexity.ai",
       "website": "https://perplexity.ai",
       "icon": "🔍"
+    },
+    {
+      "id": 12,
+      "name": "DeepSeek",
+      "provider": "DeepSeek",
+      "category": "cloud",
+      "rateLimit": "Free tier available",
+      "contextLength": "128K tokens",
+      "rating": 4.4,
+      "reviews": 3400,
+      "features": [
+        "Code Generation",
+        "Math",
+        "Reasoning",
+        "Long Context"
+      ],
+      "freeTier": "Free tier available",
+      "apiDocs": "https://platform.deepseek.com/docs",
+      "website": "https://deepseek.com",
+      "icon": "🔮"
     },
     {
       "id": 13,
