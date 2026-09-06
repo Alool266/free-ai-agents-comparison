@@ -106,26 +106,6 @@
       "icon": "⚡"
     },
     {
-      "id": 6,
-      "name": "Cohere",
-      "provider": "Cohere",
-      "category": "cloud",
-      "rateLimit": "100 RPM (free)",
-      "contextLength": "4K tokens",
-      "rating": 4.3,
-      "reviews": 2800,
-      "features": [
-        "Embeddings",
-        "Classification",
-        "Rerank",
-        "Generation"
-      ],
-      "freeTier": "100 requests/min free",
-      "apiDocs": "https://docs.cohere.com",
-      "website": "https://cohere.com",
-      "icon": "🔗"
-    },
-    {
       "id": 7,
       "name": "Hugging Face Inference",
       "provider": "Hugging Face",
