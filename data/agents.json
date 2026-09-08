@@ -24,6 +24,27 @@
       "icon": "🧠"
     },
     {
+      "id": 2,
+      "name": "Google Gemini",
+      "provider": "Google",
+      "category": "cloud",
+      "rateLimit": "60 RPM (free)",
+      "contextLength": "32K tokens",
+      "rating": 4.6,
+      "reviews": 8900,
+      "features": [
+        "Text Generation",
+        "Vision",
+        "Code",
+        "Multilingual",
+        "Grounding"
+      ],
+      "freeTier": "60 requests/min free",
+      "apiDocs": "https://ai.google.dev/docs",
+      "website": "https://ai.google.dev",
+      "icon": "💎"
+    },
+    {
       "id": 3,
       "name": "Claude 3 Haiku",
       "provider": "Anthropic",
