@@ -1,28 +1,7 @@
 {
-  "version": "2026.10.02",
-  "lastUpdated": "2026-10-02",
+  "version": "2026.10.03",
+  "lastUpdated": "2026-10-03",
   "agents": [
-    {
-      "id": 1,
-      "name": "OpenAI GPT-4o mini",
-      "provider": "OpenAI",
-      "category": "cloud",
-      "rateLimit": "500K tokens/day",
-      "contextLength": "128K tokens",
-      "rating": 4.8,
-      "reviews": 12500,
-      "features": [
-        "Text Generation",
-        "Code",
-        "Vision",
-        "Function Calling",
-        "JSON Mode"
-      ],
-      "freeTier": "500K tokens/day free",
-      "apiDocs": "https://platform.openai.com/docs",
-      "website": "https://openai.com",
-      "icon": "🧠"
-    },
     {
       "id": 2,
       "name": "Google Gemini",
@@ -124,27 +103,6 @@
       "apiDocs": "https://docs.cohere.com",
       "website": "https://cohere.com",
       "icon": "🔗"
-    },
-    {
-      "id": 7,
-      "name": "Hugging Face Inference",
-      "provider": "Hugging Face",
-      "category": "opensource",
-      "rateLimit": "30K tokens/day",
-      "contextLength": "Varies by model",
-      "rating": 4.5,
-      "reviews": 15000,
-      "features": [
-        "100K+ Models",
-        "Open Source",
-        "Community",
-        "API",
-        "Datasets"
-      ],
-      "freeTier": "30K tokens/day free",
-      "apiDocs": "https://huggingface.co/docs",
-      "website": "https://huggingface.co",
-      "icon": "🤗"
     },
     {
       "id": 8,
